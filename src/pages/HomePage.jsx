@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import AboutmePage from "./AboutmePage";
+import PortfolioPage from "./PortfolioPage";
 import SkillPage from "./SkillPage";
 
 function HomePage() {
@@ -37,6 +38,7 @@ function HomePage() {
 
       <AboutmePage />
       <SkillPage />
+      <PortfolioPage/>
     </div>
   );
 }

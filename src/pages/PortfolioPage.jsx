@@ -1,21 +1,32 @@
 function PortfolioPage() {
   return (
-    <div className="app-wrapper-protfolio">
-      <div className="section-title">
-        <p>WHat I Do</p>
-        <h2>Specializing In</h2>
-        <div className="menu-protfolio">
-          <span>All Projects</span>
-          <span>Web Design</span>
-          <span>Web Design</span>
+    <div id="app-wrapper-protfolio" className=" w-full ">
+      <div id="section-title" className="py-2">
+        <p className=" text-sm text-[#4275FA] font-medium py-2">WHat I Do</p>
+        <p className="text-xl font-semibold  text-[#2E2D56]">Specializing In</p>
+        <div className="w-full grid  grid-cols-1  place-items-center">
+          <div
+            id="menu-protfolio  "
+            className=" w-1/3 grid  grid-cols-3 gap-x-1 place-items-center text-sm text-[#2E2D56] py-3 font-semibold"
+          >
+            {/* ตรงนี้ในอนาคตจะใส่เป็นลิงค์แยกไปแต่ละหมวดของงาน**ถ้ามีงานเยอะนะ */}
+            <span>All Projects</span>
+            <span>Web Design</span>
+            <span>Web Design</span>
+          </div>
         </div>
       </div>
       <div className="protfolio-list">
         {/* map ตรงนี้นะ อยากให้กดเข้าไปดูแแล้วขึ้นตัวอย่างของหน้าเว็บนั้น */}
-        <div className="protfolio">
-          <img className="protfolio-image" />
+        <div id="protfolio" className="grid grid-rows-2 grid-flow-col gap-4 pb-3">
+          <img className="row-span-2" src="..\src\image\unsplash_IyaNci0CyRk.png" />
+          {/* ต้องกลับมาแก้ส่วนนี้ให้เป็นเหมือนในรูปล่างนี้ */}
+          <img className=" " src="..\src\image\card-hover.png" />
+          <img className="" src="..\src\image\unsplash_7ZWVnVSaafY.png" />
+          <img className=" " src="..\src\image\unsplash_m_HRfLhgABo.png" />
+          <img className=" " src="..\src\image\unsplash_qC2n6RQU4Vw.png" />
         </div>
-        <button>View All</button>
+        <button className=" w-[150px] h-[53px] border-2 border-solid bg-[#4175FA] rounded-full text-white font-medium   ">View All</button>
       </div>
     </div>
   );
