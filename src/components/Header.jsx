@@ -1,10 +1,10 @@
 function Header() {
   return (
-    <div className="wrapper-header">
+    <div id="wrapper-header" className=" w-full flex justify-between p-2">
       {/* กล่องซ้าย */}
-      <div id="web-title">SSSIRIRWAN</div>
+      <div id="web-title">SSSIRIWAN</div>
       {/* กล่องขว่า */}
-      <div className="navbar">
+      <div id="navbar" className=" flex  space-x-5">
         <p className="nav-aboutme">About</p>
         <p className="nav-skill">Skill</p>
         <p className="nav-portfolio">Portfolio</p>

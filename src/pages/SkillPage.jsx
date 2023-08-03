@@ -1,16 +1,58 @@
 function SkillPage() {
   return (
-    <div className="app-wrapper-skill">
+    <div id="app-wrapper-skill" className="">
       <div className="section-title">
-        <p>WHat I Do</p>
-        <h2>Specializing In</h2>
+        <p className=" text-sm text-[#4275FA] font-medium py-2">What I Do</p>
+        <p className="text-xl font-semibold  text-[#2E2D56]">Specializing In</p>
       </div>
-      <div className="skill-list">
-        {/* map ตรงนี้นะ */}
+      <div id="skill-list" className="">
         <div className="skill">
           <img className="skill-image" />
-          <div className="skill-name"></div>
-          <div className="skill-detail"></div>
+          <div className="skill-name">HTML & CSS.</div>
+          <div className="skill-detail">
+            mollis nunc sed id semper risus in hendrerit gravida rutrum quisque
+            non tellus orci ac
+          </div>
+        </div>
+        <div className="skill">
+          <img className="skill-image" />
+          <div className="skill-name">Javascript.</div>
+          <div className="skill-detail">
+            mollis nunc sed id semper risus in hendrerit gravida rutrum quisque
+            non tellus orci ac
+          </div>
+        </div>
+        <div className="skill">
+          <img className="skill-image" />
+          <div className="skill-name">Responsive Design.</div>
+          <div className="skill-detail">
+            mollis nunc sed id semper risus in hendrerit gravida rutrum quisque
+            non tellus orci ac
+          </div>
+        </div>
+        <div className="skill">
+          <img className="skill-image" />
+          <div className="skill-name">Testing and Debugging</div>
+          <div className="skill-detail">
+            mollis nunc sed id semper risus in hendrerit gravida rutrum quisque
+            non tellus orci ac
+          </div>
+        </div>
+        <div className="skill">
+          <img className="skill-image" />
+          <div className="skill-name">Problem-Solving</div>
+          <div className="skill-detail">
+            mollis nunc sed id semper risus in hendrerit gravida rutrum quisque
+            non tellus orci ac
+          </div>
+        </div>
+        <div className="skill">
+          <img className="skill-image" />
+          <div className="skill-name">Teamwork</div>
+          <div className="skill-detail">
+            mollis nunc sed id semper risus in hendrerit gravida rutrum quisque
+            non tellus orci ac
+          </div>
         </div>
       </div>
     </div>
