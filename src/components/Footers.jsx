@@ -1,9 +1,9 @@
 function Footer() {
   return (
-    <div className="wrapper-header-footer">
-      {/* กล่องซ้าย */}
-      <div className="web-title">sssiriwan</div>
-      <div className="web-credit">COPYRIGHT © 2018 DESIGN BY RAULIQBAL</div>
+    <div id="wrapper-header-footer" className=" pt-16 space-y-2">
+     
+      <div id="web-title" className="font-semibold  text-[#2E2D56]">SSSIRIWAN</div>
+      <div className=" text-sm">COPYRIGHT © 2018 DESIGN BY RAULIQBAL</div>
     </div>
   );
 }

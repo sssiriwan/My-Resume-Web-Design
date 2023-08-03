@@ -10,9 +10,9 @@ function PortfolioPage() {
             className=" w-1/3 grid  grid-cols-3 gap-x-1 place-items-center text-sm text-[#2E2D56] py-3 font-semibold"
           >
             {/* ตรงนี้ในอนาคตจะใส่เป็นลิงค์แยกไปแต่ละหมวดของงาน**ถ้ามีงานเยอะนะ */}
-            <span>All Projects</span>
-            <span>Web Design</span>
-            <span>Web Design</span>
+            <button className="text-nm text-[#2E2D56]  hover:text-[#5F5E79] font-semibold">All Projects</button>
+            <button className="text-nm text-[#2E2D56]  hover:text-[#5F5E79] font-semibold">Web Design</button>
+            <button className="text-nm text-[#2E2D56]  hover:text-[#5F5E79] font-semibold">Web Design</button>
           </div>
         </div>
       </div>
@@ -26,7 +26,7 @@ function PortfolioPage() {
           <img className=" " src="..\src\image\unsplash_m_HRfLhgABo.png" />
           <img className=" " src="..\src\image\unsplash_qC2n6RQU4Vw.png" />
         </div>
-        <button className=" w-[150px] h-[53px] border-2 border-solid bg-[#4175FA] rounded-full text-white font-medium   ">View All</button>
+        <button className=" w-[150px] h-[53px] border-2 border-solid bg-[#4175FA] rounded-full text-white font-medium  hover:bg-sky-400   ">View All</button>
       </div>
     </div>
   );
