@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import AboutmePage from "./AboutmePage";
+import ContactmePage from "./ContactmePage";
 import PortfolioPage from "./PortfolioPage";
 import SkillPage from "./SkillPage";
 
@@ -23,8 +24,8 @@ function HomePage() {
             clean and beautiful problem solving in mind.
           </div>
           <div id="get-contact-and-cv"  className=" space-x-3 flex justify-center py-2">
-            <button id="hire-me" className=" w-[138px] h-[47px] border-solid rounded-full bg-white  ">Hire Me</button>
-            <button id="get-cv" className=" w-[138px] h-[47px] border-solid rounded-full bg-white  ">Get Cv</button>
+            <button id="hire-me" className=" w-[150px] h-[53px] border-2 border-solid bg-[#4175FA] rounded-full text-white font-medium   ">Hire Me</button>
+            <button id="get-cv" className=" w-[150px] h-[53px] border-2 border-solid bg-[#4175FA] rounded-full text-white font-medium   ">Get Cv</button>
           </div>
         </div>
         {/* กล่องขวา */}
@@ -39,6 +40,7 @@ function HomePage() {
       <AboutmePage />
       <SkillPage />
       <PortfolioPage/>
+      <ContactmePage/>
     </div>
   );
 }
