@@ -33,7 +33,7 @@ function HomePage() {
         <div id="hero-img" className="w-2/4 h-2/4 ">
           <img
             className=" w-full  "
-            src="public/image/hero-img.png"
+            src="src/image/hero-img.png"
           />
         </div>
       </div>
