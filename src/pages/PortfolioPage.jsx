@@ -19,12 +19,12 @@ function PortfolioPage() {
       <div className="protfolio-list">
         {/* map ตรงนี้นะ อยากให้กดเข้าไปดูแแล้วขึ้นตัวอย่างของหน้าเว็บนั้น */}
         <div id="protfolio" className="grid grid-rows-2 grid-flow-col gap-4 pb-3">
-          <img className="row-span-2" src="..\src\image\unsplash_IyaNci0CyRk.png" />
+          <img className="row-span-2" src="/image/unsplash_IyaNci0CyRk.png" />
           {/* ต้องกลับมาแก้ส่วนนี้ให้เป็นเหมือนในรูปล่างนี้ */}
-          <img className=" " src="..\src\image\card-hover.png" />
-          <img className="" src="..\src\image\unsplash_7ZWVnVSaafY.png" />
-          <img className=" " src="..\src\image\unsplash_m_HRfLhgABo.png" />
-          <img className=" " src="..\src\image\unsplash_qC2n6RQU4Vw.png" />
+          <img className=" " src="/image/card-hover.png" />
+          <img className="" src="/image/unsplash_7ZWVnVSaafY.png" />
+          <img className=" " src="image/unsplash_m_HRfLhgABo.png" />
+          <img className=" " src="image/unsplash_qC2n6RQU4Vw.png" />
         </div>
         <button className=" w-[150px] h-[53px] border-2 border-solid bg-[#4175FA] rounded-full text-white font-medium  hover:bg-sky-400   ">View All</button>
       </div>

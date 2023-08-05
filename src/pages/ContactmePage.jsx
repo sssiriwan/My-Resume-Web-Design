@@ -32,7 +32,7 @@ function ContactmePage() {
               id="contact-information-name"
               className=" w-1/6 grid  grid-cols-2 space-x-1"
             >
-              <img src="..\src\image\account.png" />
+              <img src="/image/account.png" />
               <p className="text-sm font-semibold  text-[#ffffff]">
                 Siriwan Suankaew
               </p>
@@ -41,7 +41,7 @@ function ContactmePage() {
               id="contact-information-phone"
               className=" w-1/6 grid  grid-cols-2 space-x-1"
             >
-              <img src="..\src\image\call.png" />
+              <img src="/image/call.png" />
               <p className="text-sm font-semibold  text-[#ffffff]">
                 0836499933
               </p>
@@ -50,7 +50,7 @@ function ContactmePage() {
               id="contact-information-email"
               className=" w-1/6  grid  grid-cols-2 space-x-1 "
             >
-              <img src="..\src\image\message.png" />
+              <img src="/image/message.png" />
               <p className="text-sm font-semibold  text-[#ffffff]">
                 siriwan9933@gmail.com
               </p>
@@ -62,16 +62,16 @@ function ContactmePage() {
             >
               {/* map ตรงนี้ */}
               <div id="instagram" className="">
-                <img src="..\src\image\Instagram.png" />
+                <img src="/image/Instagram.png" />
               </div>
               <div id="Twitter" className="">
-                <img src="..\src\image\Twitter.png" />
+                <img src="/image/Twitter.png" />
               </div>
               <div id="Facebook" className="">
-                <img src="..\src\image\Facebook.png" />
+                <img src="/image/Facebook.png" />
               </div>
               <div id="github" className=" w-[40px] h-[40px] ">
-                <img src="..\src\image\github.png" />
+                <img src="/image/github.png" />
               </div>
             </div>
           </div>

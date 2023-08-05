@@ -6,7 +6,7 @@ function AboutmePage() {
         <div id="skilss" className=" w-[390px] h-[379px]   relative ">
           <img
             className="   absolute z-0 w-3/4 left-10 top-10"
-            src="..\src\image\Ellipse 5.png"
+            src="/image/Ellipse 5.png"
           />
           <div
             id="skilss-user-research"
@@ -15,7 +15,7 @@ function AboutmePage() {
             <img
               id="skillss-image"
               className="w-3/4 h-3/4"
-              src="..\src\image\research 1.png"
+              src="/image/research 1.png"
             />
             <div id="skillss-text" className=" ">
               User research
@@ -25,17 +25,14 @@ function AboutmePage() {
             id="skilss-mockup"
             className="grid grid-cols-1 gap-[0.5px] place-items-center absolute w-[160px] h-[160px] bg-[#F2F2F2] top-0 right-0 rounded-lg  "
           >
-            <img
-              className=" w-3/4 h-3/4"
-              src="..\src\image\web-design (1) 1.png"
-            />
+            <img className=" w-3/4 h-3/4" src="/image/web-design (1) 1.png" />
             <div className="">Mockup</div>
           </div>
           <div
             id="skilss-wireframe"
             className="  grid grid-cols-1 gap-[0.5px] place-items-center absolute w-[160px] h-[160px] bg-[#F2F2F2] bottom-0 left-0 rounded-lg "
           >
-            <img className="w-3/4 h-3/4" src="..\src\image\web-design 2.png" />
+            <img className="w-3/4 h-3/4" src="/image/web-design 2.png" />
             <div className="">Wireframe</div>
           </div>
           <div
@@ -44,7 +41,7 @@ function AboutmePage() {
           >
             <img
               className="w-3/4 h-3/4"
-              src="..\src\image\prototype (1) 1.png"
+              src="/image/prototype (1) 1.png"
             />
             <div className="">Prototype</div>
           </div>
@@ -52,14 +49,17 @@ function AboutmePage() {
       </div>
       {/* กล่อง2 */}
       <div id="saly" className=" w-1/3 h-11/12">
-        <img className="image-saly" src="..\src\image\Saly-10.png" />
+        <img className="image-saly" src="/image/Saly-10.png" />
       </div>
       {/* กล่อง3 */}
       <div
         id="aboutme"
         className=" w-1/3 h-11/12 flex-col   text-left space-y-2"
       >
-        <div id="aboutme-title" className=" w-full text-sm text-[#4275FA] font-medium ">
+        <div
+          id="aboutme-title"
+          className=" w-full text-sm text-[#4275FA] font-medium "
+        >
           ABOUT ME
         </div>
         <div
@@ -68,27 +68,38 @@ function AboutmePage() {
         >
           Front-End developer
         </div>
-        <div id="aboutme-detail" className="w-full text-xs text-[#5F5E79] font-normal ">
+        <div
+          id="aboutme-detail"
+          className="w-full text-xs text-[#5F5E79] font-normal "
+        >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa autem
           beatae numquam facere deleniti est, nulla perferendis hic nobis quas
           consectetur at. Facere provident at consequuntur aliquam a itaque
           aspernatur?
         </div>
         <div id="aboutme-hobby" className="">
-          <div id="aboutme-title" className="w-full text-sm text-[#2E2D56] py-3 font-semibold">
+          <div
+            id="aboutme-title"
+            className="w-full text-sm text-[#2E2D56] py-3 font-semibold"
+          >
             My Hobby
           </div>
-          <div id="aboutme-lits" className=" grid grid-cols-3 gap-[0.5px] place-items-start  ">
+          <div
+            id="aboutme-lits"
+            className=" grid grid-cols-3 gap-[0.5px] place-items-start  "
+          >
             <div id="hobby-movie" className="grid grid-cols-2 gap-[0.5px]">
-              <img className="" src="..\src\image\clapper board.png" />
+              <img className="" src="/image/clapper board.png" />
               <div className=" text-xs text-[#5F5E79] font-medium ">Movie</div>
             </div>
             <div id="hobby-travel" className="grid grid-cols-2 gap-[0.5px]">
-              <img className="" src="..\src\image\metro.png" />
-              <div className=" text-xs  text-[#5F5E79] font-medium ">Travel</div>
+              <img className="" src="/image/metro.png" />
+              <div className=" text-xs  text-[#5F5E79] font-medium ">
+                Travel
+              </div>
             </div>
             <div id="hobby-photo" className="grid grid-cols-2 gap-[0.5px]">
-              <img className="" src="..\src\image\photo.png" />
+              <img className="" src="/image/photo.png" />
               <div className=" text-xs text-[#5F5E79] font-medium ">Photo</div>
             </div>
           </div>

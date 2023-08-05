@@ -17,5 +17,5 @@ font-family: 'Pacifico', cursive;
 }
 
 #contact-information{
-  background-image: url(..\src\image\bg-img-contact.png);
+  background-image: url(/image/bg-img-contact.png);
 }
