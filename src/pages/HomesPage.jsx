@@ -13,7 +13,7 @@ function HomePage() {
     >
       <Header />
 
-      <div id="app-wrapper-homepage" className=" p-3 flex items-center justify-center space-x-4">
+      <div id="app-wrapper-homepage" className="flex flex-col lg:flex-row items-center justify-center space-x-4 p-3">
         {/* กล่องซ้าย */}
         <div id="title" className=" w-[496px] h-[249px] flex-col  text-left  space-y-1  ">
           <div id="greeting-message"  className="w-full">

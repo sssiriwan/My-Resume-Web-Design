@@ -1,6 +1,6 @@
 function AboutmePage() {
   return (
-    <div id="app-wrapper-aboutme" className=" flex ">
+    <div id="app-wrapper-aboutme" className=" items-center justify-center lg:flex">
       {/* กล่อง1 อนาคตจะแก้เป็นของ Full-stack dev*/}
       <div className="w-1/3 h-11/12">
         <div id="skilss" className=" w-[390px] h-[379px]   relative ">
