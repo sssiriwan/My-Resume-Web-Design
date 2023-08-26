@@ -14,7 +14,7 @@ function HomePage() {
       <Header />
 
       <div id="app-wrapper-homepage" className="flex flex-col lg:flex-row items-center justify-center space-x-4 p-3">
-        {/* กล่องซ้าย */}
+        {/* กล่องซ้าย 2*/}
         <div id="title" className=" w-[496px] h-[249px] flex-col   text-left  space-y-1  ">
           <div id="greeting-message"  className="w-full">
             <p id="greeting" className=" w-full text-lg font-semibold text-blue-900">HELLO, IM SIRIWAN</p>
@@ -29,7 +29,7 @@ function HomePage() {
             <button id="get-cv" className=" w-[150px] h-[53px] border-2 border-solid bg-[#4175FA] rounded-full text-white font-medium hover:bg-sky-400  ">Get Cv</button>
           </div>
         </div>
-        {/* กล่องขวา */}
+        {/* กล่องขวา 1*/}
         <div id="hero-img" className="w-2/4 h-2/4 ">
           <img
             className=" w-11-12  "
