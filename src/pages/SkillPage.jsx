@@ -1,4 +1,4 @@
-import Skill from "../components/skill";
+import Skill from "../components/Skill";
 
 function SkillPage() {
   return (
