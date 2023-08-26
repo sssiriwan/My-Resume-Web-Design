@@ -7,7 +7,7 @@ function ContactmePage() {
         <p className=" text-sm text-[#4275FA] font-medium py-2">CONTACT ME</p>
         <p className="text-xl font-semibold  text-[#2E2D56]">Get In Touch</p>
       </div>
-      <div className="lg:grid gap-4 grid-cols-2">
+      <div className="grid gap-4 lg:grid-cols-2">
         {/* กล่องซ้าย */}
         <div
           id="contact-information"

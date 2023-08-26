@@ -1,8 +1,8 @@
 function AboutmePage() {
   return (
-    <div id="app-wrapper-aboutme" className=" items-center justify-center lg:flex">
+    <div id="app-wrapper-aboutme" className=" w-full grid grid-cols-1 lg:grid-cols-3 place-items-center ">
       {/* กล่อง1 อนาคตจะแก้เป็นของ Full-stack dev*/}
-      <div className="w-1/3 h-11/12">
+      <div className="w-full h-11/12 ">
         <div id="skilss" className=" w-[390px] h-[379px]   relative ">
           <img
             className="   absolute z-0 w-3/4 left-10 top-10"
@@ -48,13 +48,13 @@ function AboutmePage() {
         </div>
       </div>
       {/* กล่อง2 */}
-      <div id="saly" className=" w-1/3 h-11/12">
-        <img className="image-saly" src="/image/Saly-10.png" />
+      <div id="saly" className=" w-full h-11/12">
+        <img className=" w-11-12  " src="/image/Saly-10.png" />
       </div>
       {/* กล่อง3 */}
       <div
         id="aboutme"
-        className=" w-1/3 h-11/12 flex-col   text-left space-y-2"
+        className=" w-full h-11/12 flex-col   text-left space-y-2"
       >
         <div
           id="aboutme-title"

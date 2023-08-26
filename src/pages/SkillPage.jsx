@@ -9,9 +9,10 @@ function SkillPage() {
       </div>
       <div
         id="skill-list"
-        className=" w-full flex-col items-center justify-center lg:grid gap-x-8 gap-y-14 grid-cols-3 place-items-center text-left "
+        className=" w-full grid grid-cols-1 lg:grid-cols-3  gap-x-8 gap-y-14 place-items-center text-left "
       >
        
+      
         <Skill
           image="/image/Frame 1.png"
           name="HTML & CSS."
@@ -42,6 +43,7 @@ function SkillPage() {
           name="Teamwork"
           detail="mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac"
         />
+        
       </div>
     </div>
   );

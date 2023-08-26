@@ -6,7 +6,7 @@ function Skill(props) {
     >
       <img
         id="skill-image"
-        className=" absolute left-6 -top-10 w-[100px] "
+        className="  absolute left-6 -top-10 w-[100px] "
         src={props.image}
       />
       <div

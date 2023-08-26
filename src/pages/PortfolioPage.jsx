@@ -18,8 +18,9 @@ function PortfolioPage() {
       </div>
       <div className="protfolio-list">
         {/* map ตรงนี้นะ อยากให้กดเข้าไปดูแแล้วขึ้นตัวอย่างของหน้าเว็บนั้น */}
-        <div id="protfolio" className="lg:grid grid-rows-2 grid-flow-col gap-4 pb-3">
-          <img className="row-span-2" src="/image/unsplash_IyaNci0CyRk.png" />
+        <div id="protfolio" className="grid lg:grid-flow-col lg:grid-rows-2 place-items-center gap-4 pb-3">
+          <img className=" row-span-1 lg:row-span-2 h-full" src="/image/unsplash_qC2n6RQU4Vw.png"  />
+          {}
           {/* ต้องกลับมาแก้ส่วนนี้ให้เป็นเหมือนในรูปล่างนี้ */}
           <img className=" " src="/image/card-hover.png" />
           <img className="" src="/image/unsplash_7ZWVnVSaafY.png" />
