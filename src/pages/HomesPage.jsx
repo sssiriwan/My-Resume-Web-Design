@@ -13,9 +13,9 @@ function HomePage() {
     >
       <Header />
 
-      <div id="app-wrapper-homepage" className=" p-3 flex items-center justify-center space-x-4">
+      <div id="app-wrapper-homepage" className="flex flex-col lg:flex-row items-center justify-center space-x-4 p-3">
         {/* กล่องซ้าย */}
-        <div id="title" className=" w-[496px] h-[249px] flex-col  text-left  space-y-1  ">
+        <div id="title" className=" w-[496px] h-[249px] flex-col   text-left  space-y-1  ">
           <div id="greeting-message"  className="w-full">
             <p id="greeting" className=" w-full text-lg font-semibold text-blue-900">HELLO, IM SIRIWAN</p>
             <p id="job-name" className=" w-full text-2xl font-semibold  text-[#2E2D56]">Front-End developer</p>
@@ -32,7 +32,7 @@ function HomePage() {
         {/* กล่องขวา */}
         <div id="hero-img" className="w-2/4 h-2/4 ">
           <img
-            className=" w-full  "
+            className=" w-11-12  "
             src="/image/hero-img.png"
           />
         </div>
